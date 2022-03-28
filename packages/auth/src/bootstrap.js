@@ -27,7 +27,7 @@ const mount = (el, { onNavigate, defaultHistory }) => {
 // check if app is running in dev mode
 if (process.env.NODE_ENV === 'development') {
     // check if app is running in isolation
-    const devRoot = document.querySelector('#_marketing-dev-root');
+    const devRoot = document.querySelector('#_auth-dev-root');
 
     // if element exists, consider we are running app in isolation
     // assuming our container doesn't have an element with id 'dev-products'
