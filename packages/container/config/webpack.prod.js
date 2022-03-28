@@ -16,6 +16,7 @@ const prodConfig = {
             name: 'container',
             remotes: {
                 marketing: `marketing@${domain}/marketing/latest/remoteEntry.js`, // assuming each remoteEntry will stay under individual folder
+                auth: `auth@${domain}/auth/latest/remoteEntry.js`, // assuming each remoteEntry will stay under individual folder
             },
             shared: packageJson.dependencies
         })
